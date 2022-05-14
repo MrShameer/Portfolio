@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+*{
+	font-family: Righteous, Concert One;
+}
+body {
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+canvas {
+  display: block;
+}
+
+nav{
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+}
+
+#spinner{
+  left: 0%;
+  top: 0%;
+  height:100%;
+  width: 100%;
+  position: absolute;
+  z-index: 9999;
+}
+
+a.nav-link:hover{
+  font-size : 20px;
+}
+
+.jumbotron{
+  position: absolute;
+  width: 100%;
+  margin-top: 5%;
+  color: aliceblue;
+}
+
+a {
+  margin: 0 10px;
+  color: inherit !important;
+  /* background-color: transparent; */
+  text-decoration: inherit !important;
+}
+
+/* i.fab{ */
+  /* margin: 0 100px; */
+  /* font-size: 100px; */
+/* } */
