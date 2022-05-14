@@ -58,7 +58,6 @@
 
 			<!-- <iframe id="frame" src='https://my.spline.design/untitled-e90d7263b52c2978be2c28363a4fac17/' frameborder='0' width='100%' height='100%'></iframe> -->
 			<iframe id="frame" src='https://my.spline.design/untitled-e90d7263b52c2978be2c28363a4fac17/' frameborder='0' width='100%' height='100%'></iframe>
-			<!-- <iframe src='https://my.spline.design/untitled-e90d7263b52c2978be2c28363a4fac17/' frameborder='0' width='100%' height='100%'></iframe> -->
 			<div class="d-flex justify-content-center align-items-center" id="spinner">
 				<div class="spinner-border text-danger">
 					<span class="visually-hidden">Loading...</span>
@@ -67,10 +66,10 @@
 		</div>
 		
 		<script>
-			$("#spinner").addClass('d-none').hide();
-				$('html, body').css({
-					overflow: 'auto',
-				});
+			// $("#spinner").addClass('d-none').hide();
+			// 	$('html, body').css({
+			// 		overflow: 'auto',
+			// 	});
 			$("#frame").on('load', function(){
 
 				$("#spinner").addClass('d-none').hide();
@@ -84,10 +83,8 @@
 			<h1 class="display-2 text-center">
 				Projects
 			</h1>
-			<!-- <div class="container"> -->
 				<div class="row" id="projectRow">
 				<script src="/script/projects.js"></script>
-			<!-- </div> -->
 			</div>
 			
 
