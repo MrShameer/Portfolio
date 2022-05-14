@@ -6,7 +6,6 @@
 		<title>Shameer's Portfolio</title>
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 		<script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
-
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	</head>
 	<body>
@@ -32,7 +31,6 @@
 				<div class="container text-center">
 					<h1 class="display-1">Shameer Ali</h1>
 					<p class="lead">3D-Artist | Game Developer | Freelancer</p>
-
 					<a href="https://www.artstation.com/mrhappy333" target="_blank">
 						<i class="fab fa-artstation fa-lg" ></i>
 					</a>
@@ -51,8 +49,6 @@
 					<a href="mailto:mrshameer333@gmail.com" target="_blank">
 						<i class="fas fa-file-pdf fa-lg"></i>
 					</a>
-
-
 				</div>
   			</div>
 
@@ -63,19 +59,12 @@
 				</div>
 			</div>
 		</div>
-		
-		
 
 		<div id="projects">
 			<div class="projects">
-				<h1 class="display-2 text-center">
-					Projects
-				</h1>
-				<div class="row" id="projectRow">
-					<script src="/script/projects.js"></script>
-				</div>
+				<h1 class="display-2 text-center">Projects</h1>
+				<div class="row" id="projectRow"></div>
 			</div>
-			
 			<iframe id="frame2" src='https://my.spline.design/portfoliocopy-3907c0e6b93d5211e00ba5fb58fdb308/' frameborder='0' width='100%' height='100%'></iframe>
 		</div>
 
@@ -89,6 +78,31 @@
 					});
 				}
 			});
+
+			function makecard(title,text,link) {
+				let card=['<div class="col-md-4 g-4"><div class="card h-100 text-center bg-dark"><div class="card-body"><h4 class="card-title">'+title+'</h4><p class="card-text">'+text+'</p><a href="'+link+'" target="_blank" class="btn btn-primary">See Project</a></div></div></div>']
+				return card.join('\n');
+			}
+
+			let arr = {
+				"Vroom" : ["A mobile app for renting and sharing cars with ease. This application is built with Laravel <a href=\"https://github.com/MrShameer/vroom-api\" target=\"_blank\">API</a> and Android Studio (Java).", "https://github.com/MrShameer/Vroom"],
+				"Alfread AI" : ["A discord music bot that has speach recognition function","https://github.com/MrShameer/Alfread-AI"],
+				"Classroom" : ["A simple classroom multiplayer game and server","https://github.com/MrShameer/Classroom"],
+				"Maze" : ["A maze game where the maze is generated randomly using Kruskal's algorithm","https://github.com/MrShameer/Maze"],
+				"Wall" : ["A multiplayer survival game where player's need to find their way throught mazes and fight other teams. This game is built with Unity Game Engine","https://github.com/MrShameer/TheWall"],
+				"Discord Meme Sound" : ["A simple bot to play popular meme sounds in voice channel","https://github.com/MrShameer/DiscordMemeSound"],
+				"EncryptDecrypt" : ["A simple Encryption and Decryption program using Vigenere cipher, Text Flip and XOR Encryption","https://github.com/MrShameer/EncryptDecrypt"],
+				"ThreeJS Template" : ["ThreeJS & WebGL website templates to use","https://github.com/MrShameer/ThreeJS-WebGL-Template"],
+				"Structural Analysia" : ["A program to calculate Reaction force, Internal Shear and Internal Moment of a beam","https://github.com/MrShameer/StructuralAnalysis"],
+				"Swamp Server" : ["Commands & Guide for a Garry's Mod Sever","https://github.com/MrShameer/Swamp-Server"],
+				"Tetris-Concept" : ["Simple tetris-concept game made using python","https://github.com/MrShameer/Tetris-Concept"],
+
+				"Flutter Games" : ["Collection of mobile game made using Flutter framework","https://github.com/lepak-xyz/Flutter-Games"],
+			};
+
+			for(var i in arr) {
+				$("#projectRow").append(makecard(i,arr[i][0],arr[i][1]));
+			}
 		</script>
 
 		<footer class="d-flex justify-content-between bg-dark py-3 ">
