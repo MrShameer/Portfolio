@@ -2,21 +2,33 @@
 *{
 	font-family: Righteous, Concert One;
 }
+
 body {
   margin: 0;
+  background-color: #000000 !important;
+  color: rgb(255, 255, 255) !important;
 }
-html,
-body {
+
+html,body {
   height: 100%;
   overflow: hidden;
+  scroll-behavior: smooth;
 }
+
 canvas {
   display: block;
 }
 
+#home{
+  height: 100% !important;
+  width: 100%;
+  position: relative;
+  margin-top: -5%;
+}
+
 nav{
   background-color: #000000;
-  color: rgb(255, 255, 255);
+  font-size: x-large ;
 }
 
 #spinner{
@@ -28,25 +40,37 @@ nav{
   z-index: 9999;
 }
 
+.spinner-border{
+  width: 3rem !important; 
+  height: 3rem !important;
+}
+
+a.nav-link{
+  transition: all 0.3s ease;
+}
+
 a.nav-link:hover{
-  font-size : 20px;
+  font-size : 30px;
 }
 
 .jumbotron{
   position: absolute;
   width: 100%;
-  margin-top: 5%;
-  color: aliceblue;
+  margin-top: 10%;
+  color: aliceblue !important;
+}
+
+iframe{
+  /* margin-top: -5%; */
 }
 
 a {
   margin: 0 10px;
   color: inherit !important;
-  /* background-color: transparent; */
   text-decoration: inherit !important;
 }
 
-/* i.fab{ */
-  /* margin: 0 100px; */
-  /* font-size: 100px; */
-/* } */
+footer{
+  margin: 0 10px;
+}
+

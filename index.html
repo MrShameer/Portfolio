@@ -19,41 +19,49 @@
 				</button>
 				<div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
 					<div class="navbar-nav">
-					<a class="nav-link" aria-current="page" href="#">Home</a>
-					<a class="nav-link" href="#">Projects</a>
-					<a class="nav-link" href="#">Works</a>
+					<a class="nav-link" aria-current="page" href="#home">Home</a>
+					<a class="nav-link" href="#projects">Projects</a>
+					<a class="nav-link" href="#works">Works</a>
 					</div>
 				</div>
 			</div>
 		</nav>
 
-		<div class="jumbotron jumbotron-fluid">
-			<div class="container text-center">
-				<h1 class="display-1">Shameer Ali</h1>
-				<p class="lead">3D-Artist | Game Developer | Freelancer</p>
+		<div id="home">
+			<div class="jumbotron jumbotron-fluid">
+				<div class="container text-center">
+					<h1 class="display-1">Shameer Ali</h1>
+					<p class="lead">3D-Artist | Game Developer | Freelancer</p>
 
-				<a href="https://www.artstation.com/mrhappy333" target="_blank">
-					<i class="fab fa-artstation fa-lg" ></i>
-				</a>
-				<a href="https://github.com/MrShameer" target="_blank">
-					<i class="fab fa-github fa-lg"></i>
-				</a>
-				<a href="mailto:mrshameer333@gmail.com" target="_blank">
-					<i class="fas fa-envelope fa-lg"></i>
-				</a>
-				<a href="mailto:mrshameer333@gmail.com" target="_blank">
-					<i class="fas fa-file-pdf"></i>
-				</a>
-			</div>
-  		</div>
+					<a href="https://www.artstation.com/mrhappy333" target="_blank">
+						<i class="fab fa-artstation fa-lg" ></i>
+					</a>
+					<a href="https://github.com/MrShameer" target="_blank">
+						<i class="fab fa-github fa-lg"></i>
+					</a>
+					<a href="mailto:mrshameer333@gmail.com" target="_blank">
+						<i class="fas fa-envelope fa-lg"></i>
+					</a>
+					<a href="mailto:mrshameer333@gmail.com" target="_blank">
+						<i class="fas fa-file-pdf"></i>
+					</a>
+				</div>
+  			</div>
 
-		<iframe id="frame" src='https://my.spline.design/untitled-e90d7263b52c2978be2c28363a4fac17/' frameborder='0' width='100%' height='100%'></iframe>
-		<div class="d-flex justify-content-center align-items-center" id="spinner">
-			<div class="spinner-border text-danger">
-				<span class="visually-hidden">Loading...</span>
+			<iframe id="frame" src='https://my.spline.design/untitled-e90d7263b52c2978be2c28363a4fac17/' frameborder='0' width='100%' height='100%'></iframe>
+			<!-- <iframe src='about:blank' frameborder='0' width='100%' height='100%'></iframe> -->
+			<div class="d-flex justify-content-center align-items-center" id="spinner">
+				<div class="spinner-border text-danger">
+					<span class="visually-hidden">Loading...</span>
+				</div>
 			</div>
 		</div>
+		
 		<script>
+			// $("#spinner").addClass('d-none').hide();
+			// 	$('html, body').css({
+			// 		overflow: 'auto',
+			// 	});
 			$("#frame").on('load', function(){
 
 				$("#spinner").addClass('d-none').hide();
@@ -63,6 +71,13 @@
 			});
 		</script>
 
-		<div>haihihasih</div>
+		<div id="projects">
+			haihihasih
+		</div>
+
+		<footer class="d-flex justify-content-between py-3 my-4 border-top">
+			<div class="p-2 bd-highlight">© 2022 Shameer Ali</div>
+			<div class="p-2 bd-highlight">Made by Shameer</div>
+		</footer>
 	</body>
 </html>
