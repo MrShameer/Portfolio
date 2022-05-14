@@ -26,8 +26,8 @@ canvas {
   width: 100%;
   position: relative;
   margin-top: -2%;
-  margin-bottom: 2%;
-  box-shadow: 0 0 100px 10px rgb(86, 24, 122);
+  /* margin-bottom: 1%; */
+  /* box-shadow: 0 0 100px 10px rgb(86, 24, 122); */
 }
 
 nav{
@@ -73,7 +73,10 @@ a {
 }
 
 footer{
-  margin: 0 10px;
+  bottom: 0px;
+  margin-bottom: 0 !important;
+  padding: 0 10px;
+
 }
 
 p > a{
@@ -81,7 +84,27 @@ p > a{
   text-decoration: inherit !important;
 }
 
-#projects, #works{
-  margin : 0 5%;
+#projectRow{
+  margin : 0 10% 5%;
+}
+
+#projects{
+  height: 100% !important;
+  width: 100%;
+  position: relative;
+  box-shadow: 0 -5px 10px 2px rgb(86, 24, 122);
+}
+
+.projects{
+  margin-top: 2%;
+  position: absolute;
+  width: 100%;
+  pointer-events: none;
+}
+
+.card{
+  background: linear-gradient(90deg, #232526 0%, #414345 100%);
+  box-shadow:10px 10px 10px 1px rgb(41, 41, 41);
+  /* box-shadow: 0 0 10px 1px rgb(26, 13, 34); */
 }
 
