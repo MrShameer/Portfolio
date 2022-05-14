@@ -7,11 +7,13 @@ body {
   margin: 0;
   background-color: #000000 !important;
   color: rgb(255, 255, 255) !important;
+  
 }
 
 html,body {
   height: 100%;
   overflow: hidden;
+  overflow-x: hidden !important;
   scroll-behavior: smooth;
 }
 
@@ -23,7 +25,9 @@ canvas {
   height: 100% !important;
   width: 100%;
   position: relative;
-  margin-top: -5%;
+  margin-top: -2%;
+  margin-bottom: 2%;
+  box-shadow: 0 0 100px 10px rgb(86, 24, 122);
 }
 
 nav{
@@ -58,19 +62,26 @@ a.nav-link:hover{
   width: 100%;
   margin-top: 10%;
   color: aliceblue !important;
-}
-
-iframe{
-  /* margin-top: -5%; */
+  pointer-events: none;
 }
 
 a {
   margin: 0 10px;
   color: inherit !important;
   text-decoration: inherit !important;
+  pointer-events: auto;
 }
 
 footer{
   margin: 0 10px;
+}
+
+p > a{
+  color: royalblue !important;
+  text-decoration: inherit !important;
+}
+
+#projects, #works{
+  margin : 0 5%;
 }
 
