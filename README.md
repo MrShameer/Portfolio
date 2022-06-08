@@ -1,8 +1,8 @@
 # About
-This is my portfolio. Nothing much. Made using HTML, JavaScript, CSS & [Spline](https://spline.design/)
+This is my portfolio. Nothing much but it's interactable. Made using HTML, JavaScript, CSS & [Spline](https://spline.design/)
 
 # About Spline
-The background iframe in this portfolio is made using [Spline](https://spline.design/) by me. Check it out.
+The background iframe in this portfolio is made using [Spline](https://spline.design/) by me. Users can interact with it. Check it out.
 
 ## Link to iframe
 - [First iframe](https://my.spline.design/untitled-e90d7263b52c2978be2c28363a4fac17/)
