@@ -1,0 +1,14 @@
+# About
+This is my portfolio. Nothing much. Made using HTML, JavaScript, CSS & [Spline](https://spline.design/)
+
+# About Spline
+The background iframe in this portfolio is made using [Spline](https://spline.design/) by me. Check it out.
+
+## Link to iframe
+- [First iframe](https://my.spline.design/untitled-e90d7263b52c2978be2c28363a4fac17/)
+- [Second iframe](https://my.spline.design/portfoliocopy-3907c0e6b93d5211e00ba5fb58fdb308/)
+
+# About Me
+### Check out my Portfolio : [shameer.lepak.xyz](http://shameer.lepak.xyz/)
+
+### Here's my [Resume](Resume.pdf) if you need it
