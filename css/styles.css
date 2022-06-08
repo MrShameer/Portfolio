@@ -26,8 +26,8 @@ canvas {
   width: 100%;
   position: relative;
   margin-top: -2%;
-  /* margin-bottom: 1%; */
-  /* box-shadow: 0 0 100px 10px rgb(86, 24, 122); */
+  z-index: 2;
+  box-shadow: 0 0 100px 10px rgb(86, 24, 122);
 }
 
 nav{
@@ -85,21 +85,31 @@ p > a{
 }
 
 #projectRow{
-  margin : 0 10% 5%;
+  padding : 0 10% 5%;
 }
 
 #projects{
-  height: 100% !important;
+  height : auto !important;
   width: 100%;
   position: relative;
-  box-shadow: 0 -5px 10px 2px rgb(86, 24, 122);
 }
 
 .projects{
-  margin-top: 2%;
-  position: absolute;
+  padding-top: 2%;
+  height : auto !important;
+  position: inherit;
   width: 100%;
   pointer-events: none;
+  z-index: 1;
+}
+
+#frame2{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
 }
 
 .card{
