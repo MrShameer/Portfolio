@@ -1,3 +1,5 @@
+<h1 align="center"><a href="https://shameer.lepak.xyz/" target="_blank">shameer.lepak.xyz</a></h1>
+
 # About
 This is my portfolio. Nothing much but it's interactable. Made using HTML, JavaScript, CSS & [Spline](https://spline.design/)
 
