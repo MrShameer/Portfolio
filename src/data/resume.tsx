@@ -67,7 +67,12 @@ export const DATA = {
         name: "Send Email",
         url: "mailto:mrshameer333@gmail.com",
         icon: Icons.email,
-
+        navbar: true,
+      },
+      IMDB: {
+        name: "IMDB",
+        url: "https://www.imdb.com/name/nm16694329/",
+        icon: Icons.imdb,
         navbar: true,
       },
     },
@@ -84,7 +89,7 @@ export const DATA = {
       start: "Sept 2022",
       end: "Present",
       description:
-        "Contributed to high-profile projects like Spider-Man 2 and MLB, working as a technical artist. Skilled in developing and maintaining art pipelines, tools, and workflows to streamline asset creation, reduce iteration time, and boost team efficiency. Developed automation solutions, custom plugins, and scripting to optimize workflows. Experienced in web and desktop tool creation, including integration with frameworks like LangChain and LangGraph for chatbot and LLM applications. Have hands-on knowledge in creating conversational AI solutions and leveraging ComfyUI for efficient project management. Continuously expanding my expertise in advanced automation and large language models to drive technical innovation.",
+        "Contributed to high-profile projects like Spider-Man 2 and MLB, working as a technical artist. Skilled in developing and maintaining art pipelines, tools, and workflows to streamline asset creation, reduce iteration time, and boost team efficiency. Developed automation solutions, custom plugins, and scripting to optimize workflows. Set up and configured infrastructure, including machine setups and vendor systems, ensuring optimized performance and seamless workflows. Collaborated with artists and developers to troubleshoot complex issues, debug tools, and optimize system reliability. Experienced in web and desktop tool creation, including integration with frameworks like LangChain and LangGraph for chatbot and LLM applications. Have hands-on knowledge in creating conversational AI solutions and leveraging ComfyUI for efficient project management. Continuously expanding my expertise in advanced automation and large language models to drive technical innovation.",
     },
     {
       company: "Freelancer",
@@ -379,6 +384,15 @@ export const DATA = {
     },
   ],
   projects: [
+    {
+      title: "Real-Time 3D Train Visualization",
+      dates: "",
+      location: "",
+      description:
+        "A 3D map that visualizes real-time train locations and routes, providing live updates on train movements and schedules for efficient travel planning and tracking. Containing a 3D map of the Klang Vally, showcasing hotspots and train routes.",
+      image: "",
+      links: [],
+    },
     {
       title: "Legal AI Research Assistant",
       dates: "",
